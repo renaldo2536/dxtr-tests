@@ -1,4 +1,3 @@
-import { ScreenWidth } from "@freakycoder/react-native-helpers";
 import { ExtendedTheme } from "@react-navigation/native";
 import { ViewStyle, StyleSheet, TextStyle } from "react-native";
 
@@ -17,13 +16,22 @@ export default (theme: ExtendedTheme) => {
   const { colors } = theme;
   return StyleSheet.create<Style>({
     container: {
-      padding: 16,
-      marginTop: 16,
+      padding: 8,
+      marginHorizontal: 8,
+      marginBottom: 18,
       borderWidth: 1,
       borderRadius: 8,
-      width: ScreenWidth * 0.9,
-      borderColor: colors.borderColor,
+      borderColor: 'white',
       backgroundColor: colors.dynamicBackground,
+      width: '45%',
+      shadowColor: '#000',
+      shadowOffset: {
+        width: 0,
+        height: 1,
+      },
+      shadowOpacity: 0.22,
+      shadowRadius: 2.22,
+      elevation: 3,
     },
     descriptionTextStyle: {
       marginTop: 8,
