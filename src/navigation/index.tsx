@@ -10,7 +10,6 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
  */
 import { SCREENS } from "@shared-constants";
 import { LightTheme, DarkTheme, palette } from "@theme/themes";
-// ? Screens
 import HomeScreen from "@screens/home/HomeScreen";
 import SearchScreen from "@screens/search/SearchScreen";
 import DetailScreen from "@screens/detail/DetailScreen";
