@@ -1,4 +1,4 @@
-This code base is taken from React Native Typescript Boilerplate
+This code or test is written using react-native-typescript-boilerplate
 
 1. Using axios library for api calls
 2. Using Recoil for state management
